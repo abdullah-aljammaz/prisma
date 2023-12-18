@@ -1,0 +1,16 @@
+one to one 
+one to many
+many to many
+
+npx prisma db push
+npx prisma db
+npx prisma studio
+npx prisma generate client
+
+[
+    {"POST1":["1000","title"], "POST2":["400","TEST"]}
+]
+
+npm init -y
+npx tsc --init
+npm install prisma --save-dev
