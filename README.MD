@@ -31,8 +31,8 @@ DATABASE_URL="mysql://USER_NAME@IP:PORT/DATABASE_NAME"
 | Path                                | Methos |
 | ----------------------------------- | ------ |
 | `/blog/createBlog`                  | POST   |
-| `/blog/getAllUserWithBlog/ENTER_ID` | GET    |
 | `/blog/getAllBlog`                  | GET    |
+| `/blog/getAllUserWithBlog/ENTER_ID` | GET    |
 | `/blog/delete/ENTER_ID`             | DELETE |
 
 <hr>
