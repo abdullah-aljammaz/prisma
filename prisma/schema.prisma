@@ -8,15 +8,15 @@ datasource db {
 }
 
 model Blog {
-  id    String  @id @default(uuid())
-  title String
-  user_id String
+  id         String   @id @default(uuid())
+  title      String
+  user_id    String
   createdata DateTime @default(now())
-  user User @relation(fields: [user_id], references: [id])
+  user       User     @relation(fields: [user_id], references: [id])
 }
 
 model User {
-  id    String  @id @default(uuid())
+  id       String @id @default(uuid())
   username String
   email    String @unique
   password String
